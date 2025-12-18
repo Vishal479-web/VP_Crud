@@ -1,3 +1,80 @@
+# 🚀 CRUD Assignment – Backend & Frontend
+
+## 🧩 Task 1: Backend – CRUD APIs (Flask)
+
+✅ Create, Read, Update, Delete **Comments** for a given Task
+✅ RESTful API design
+✅ Automated tests included
+
+### 🔧 Tech Stack
+
+* 🐍 Python (Flask)
+* 🧪 Pytest
+* 🗄️ SQLite / SQLAlchemy
+
+### ▶️ Run Backend
+
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate   # Windows: venv\\Scripts\\activate
+pip install -r requirements.txt
+flask run
+```
+
+### 🧪 Run Tests
+
+```bash
+python test_crud_operations.py
+```
+
+---
+
+## 🎨 Task 2: Frontend – CRUD UI (React)
+
+✅ UI to Create, View, Update, Delete **Tasks**
+✅ Uses existing backend CRUD APIs
+✅ Clean and simple UI
+
+### 🔧 Tech Stack
+
+* ⚛️ React
+* 🌐 Axios
+* 🎨 Basic CSS
+
+### ▶️ Run Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+App will run at 👉 `http://localhost:3000`
+
+---
+
+## 📁 Project Structure
+
+```
+backend/    # Flask APIs + Tests
+frontend/   # React UI
+```
+
+---
+
+## 📌 Notes
+
+* PRs are created from a **fork**, as per instructions
+* CI workflow adjusted to support fork-based PRs
+* Reasonable assumptions are documented in PRs
+
+---
+
+⭐ Thank you for reviewing my submission!
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Flask React Template
 
 Boilerplate project for Flask, React & MongoDB based projects. This README documents the steps necessary to get the application up and running, and various components of the application.
@@ -45,3 +122,4 @@ This project has three deployment environments that everyone can access:
 Once you have familiarized yourself with the documentation, head over to the [Engineering Handbook](https://github.com/jalantechnologies/handbook/blob/main/engineering/index.md) to learn about the best practices we follow at Better Software.
 
 PS: Before you start working on the application, these [three git settings](https://spin.atomicobject.com/git-configurations-default/) are a must-have!
+
